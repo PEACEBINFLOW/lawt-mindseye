@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "lawt"
+version = "0.1.0"
+description = "LAW-T: Time-labeled self-evolving system guided by MindsEye"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Peace Thabiwa"}]
+dependencies = []
+
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+addopts = "-q"
